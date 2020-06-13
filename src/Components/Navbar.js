@@ -12,7 +12,7 @@ export default class Navbar extends Component{
         const { activeItem } = this.state
 
     return (
-      <Menu>
+      <Menu size = 'massive'>
         <Menu.Item
           as = { Link }
           to = '/'
@@ -21,13 +21,17 @@ export default class Navbar extends Component{
           onClick={this.handleItemClick}
         />
         <Menu.Item
-          name='reviews'
-          active={activeItem === 'reviews'}
+          as = { Link }
+          to = '/gallery'
+          name='Gallery'
+          active={activeItem === 'Gallery'}
           onClick={this.handleItemClick}
         />
         <Menu.Item
-          name='upcomingEvents'
-          active={activeItem === 'upcomingEvents'}
+          as = { Link }
+          to = '/resume'
+          name='Resume'
+          active={activeItem === 'Resume'}
           onClick={this.handleItemClick}
         />
       </Menu>
