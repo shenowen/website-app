@@ -3,7 +3,15 @@
   min-height: 100vh;
 }
 
+.left-align{
+  text-align: left;
+}
+
 .page {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  margin-left: 5%;
+  margin-right: 5%;
   align-items: center;
   align-content: center;
 }
