@@ -8,7 +8,9 @@ export default class Home extends Component{
         return(
             <div className='page'>
                 <Header size = 'huge'>
-                    <big>Owen Shen</big>
+                    <big>
+                        <big>Owen Shen</big>
+                    </big>
                 </Header>
                 <Container fluid>
                     <Grid columns={2} divided padded doubling>

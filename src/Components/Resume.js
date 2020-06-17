@@ -8,10 +8,12 @@ export default class Resume extends Component{
     render(){
         return(
             <div className='page'>
-                <Header size = 'huge'>
-                    <big>My Resume</big>
-                </Header>
-                <PagesPDFViewer pdf = {resumeShen}/>
+                <div className='center-align'>
+                    <Header size = 'huge' className='left-align'>
+                        <big>My Resume</big>
+                    </Header>
+                    <PagesPDFViewer pdf = {resumeShen}/>
+                </div>
             </div>
         );
     }
