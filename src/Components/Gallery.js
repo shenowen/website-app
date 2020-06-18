@@ -16,7 +16,11 @@ export default class Gallery extends Component{
     render(){
         return(
             <div className ='page'>
-                <h2>DIS DA GALLERY</h2>
+                <Header size = 'huge'>
+                    <big>
+                        <big>Gallery</big>
+                    </big>
+                </Header>
                 <Container fluid>
                     <Grid columns={2} divided padded doubling>
                         <Grid.Row>

@@ -4,6 +4,7 @@ import Home from './Components/Home.js';
 import Navbar from './Components/Navbar.js';
 import Gallery from './Components/Gallery.js';
 import Resume from './Components/Resume.js';
+import SocialLinks from './Components/SocialLinks.js';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Divider } from "semantic-ui-react";
 
@@ -28,6 +29,7 @@ export default function App() {
           
         </Switch>
         </Divider>
+        <SocialLinks />
       </Router>
     </div>
   );
